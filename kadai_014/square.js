@@ -1,5 +1,5 @@
 function double(num) {
-  console.log(num ** 2);
+  return num ** 2;
 }
 
-double(10);
+console.log(double(10));
